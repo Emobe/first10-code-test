@@ -1,0 +1,16 @@
+{
+  "name": "first-10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anthony Shuker <anthony.r.shuker@gmail.com>",
+  "license": "None",
+  "private": true,
+  "scripts": {
+    "start": "serve",
+    "watch-scss": "node-sass -w main.scss main.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "serve": "^9.2.0"
+  }
+}
